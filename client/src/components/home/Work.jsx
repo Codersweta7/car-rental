@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   Car,
@@ -9,7 +10,10 @@ import {
   CircleHelp,
 } from "lucide-react";
 
-const Work = () => {
+
+const Work = () => {  
+    const navigate = useNavigate();
+     
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -138,8 +142,10 @@ const Work = () => {
             Ready to get started? Book your dream car now!
           </p>
           <motion.button
+            
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => navigate("/models")}
             className="px-8 py-4 bg-orange-500 text-white rounded-lg shadow-lg 
                      shadow-orange-500/30 hover:bg-orange-600 transition-all">
             Book a Car Now
