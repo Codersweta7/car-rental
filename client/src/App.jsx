@@ -21,7 +21,7 @@ import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
 function App() {
   return (
     <>
-      <MouseTrail strokeColor="#3377ff" lineWidthStart={40} />
+      <MouseTrail strokeColor="#F97316" lineWidthStart={30} />
       <AnimatePresence mode="wait">
         <Routes>
           {/* Auth routes without Navbar and Footer */}
