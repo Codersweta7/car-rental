@@ -4,11 +4,12 @@ Welcome to the Car Rental  project! This application allows users to rent cars e
 
 ## This project is now OFFICIALLY accepted for
 
-<img src="./logo-1.png" alt="Car Rental Logo" width="80%">
+- ![project-image1](client/src/assets/images/socialwinterofcode_cover.jpg.png)
 
 ## Table of Contents
 
 - [Features](#features)
+- [Preview](#preview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,6 +23,11 @@ Welcome to the Car Rental  project! This application allows users to rent cars e
 - Admin panel for managing cars and bookings
 - Search and filter options for cars
 - Responsive design for mobile and desktop
+
+## Preview
+ - ![project-image1](client/src/assets/images/carrental1.png)
+ - ![project-image1](client/src/assets/images/carrental2.png)
+ - ![project-image1](client/src/assets/images/carrental3.png)
 
 ## Technologies Used
 
